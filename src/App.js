@@ -44,8 +44,6 @@ const App = () => {
           {text.map((item, index) => {
             return <p key={index}>{item}</p>;
           })}
-
-          <h3></h3>
         </article>
       </section>
     </>
